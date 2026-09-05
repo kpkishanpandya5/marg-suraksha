@@ -1,0 +1,54 @@
+import helplinesData from '@/content/data/helplines.json'
+import PrintButton from '@/components/PrintButton'
+import { t } from '@/lib/i18n'
+
+export default function NumbersPage() {
+  return (
+    <div className="max-prose">
+      <h1 className="text-2xl font-semibold mb-2">{t('numbers.title')}</h1>
+      <p className="text-[#6B7280] mb-2">
+        These numbers work across India. Save them before you need them.
+      </p>
+      <div className="mb-8 no-print">
+        <PrintButton label="Print this page" />
+      </div>
+
+      <div className="space-y-6">
+        {helplinesData.map((h) => (
+          <div key={h.id} className="border-b border-[#E5E7EB] pb-6">
+            <div className="flex items-baseline gap-4 mb-1">
+              <span className="text-3xl font-bold text-[#1D4ED8]">{h.number}</span>
+            </div>
+            <p className="font-semibold mb-1">{h.whatItIsFor}</p>
+            <p className="text-[#6B7280] text-sm mb-2">{h.whenToUse}</p>
+            <p className="text-xs text-[#6B7280]">
+              Source:{' '}
+              <a href={h.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {h.sourceUrl}
+              </a>
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-8 border border-[#E5E7EB] p-4">
+        <p className="font-semibold mb-1">Other useful contacts</p>
+        <ul className="list-disc pl-5 space-y-1 text-sm">
+          <li>
+            <strong>District Legal Services Authority (DLSA)</strong> — for free
+            legal aid. Search online for your district&apos;s DLSA number.
+          </li>
+          <li>
+            <strong>National Legal Services Authority (NALSA)</strong> — 15100
+          </li>
+          <li>
+            <strong>Motor Vehicles Accident Claims Portal</strong>{' '}
+            <a href="https://mact.hcnlservices.in/" target="_blank" rel="noopener noreferrer">
+              mact.hcnlservices.in
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
+}

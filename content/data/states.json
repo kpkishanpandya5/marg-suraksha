@@ -1,0 +1,745 @@
+[
+  {
+    "state": "Maharashtra",
+    "slug": "maharashtra",
+    "ambulanceNumber": "108",
+    "policeFirPortalUrl": "https://citizen.mahapolice.gov.in/Citizen/MH/PublishedFIR.aspx",
+    "stateLegalServicesAuthorityUrl": "http://www.msla.nic.in/",
+    "verified": true,
+    "lastCheckedAt": "2025-09-04",
+    "districts": [
+      {
+        "district": "Mumbai",
+        "slug": "mumbai",
+        "dlsaOffice": {
+          "name": "Mumbai District Legal Services Authority",
+          "address": "City Civil Court Complex, Old Custom House Lane, Fort, Mumbai 400 001",
+          "phone": null
+        },
+        "mactTribunal": {
+          "name": "Motor Accidents Claims Tribunal, Mumbai",
+          "address": "City Civil Court Complex, Old Custom House Lane, Fort, Mumbai 400 001"
+        },
+        "designatedHospitals": [],
+        "verified": true,
+        "lastCheckedAt": "2025-09-04"
+      },
+      {
+        "district": "Pune",
+        "slug": "pune",
+        "dlsaOffice": {
+          "name": "Pune District Legal Services Authority",
+          "address": null,
+          "phone": null
+        },
+        "mactTribunal": {
+          "name": "Motor Accidents Claims Tribunal, Pune",
+          "address": null
+        },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "slug": "andhra-pradesh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Visakhapatnam",
+        "slug": "visakhapatnam",
+        "dlsaOffice": { "name": "Visakhapatnam District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Visakhapatnam", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "slug": "arunachal-pradesh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Itanagar",
+        "slug": "itanagar",
+        "dlsaOffice": { "name": "Itanagar District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Itanagar", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "slug": "assam",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Guwahati",
+        "slug": "guwahati",
+        "dlsaOffice": { "name": "Kamrup Metropolitan District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Guwahati", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "slug": "bihar",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Patna",
+        "slug": "patna",
+        "dlsaOffice": { "name": "Patna District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Patna", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Chhattisgarh",
+    "slug": "chhattisgarh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Raipur",
+        "slug": "raipur",
+        "dlsaOffice": { "name": "Raipur District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Raipur", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Goa",
+    "slug": "goa",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Panaji",
+        "slug": "panaji",
+        "dlsaOffice": { "name": "North Goa District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Panaji", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "slug": "gujarat",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Ahmedabad",
+        "slug": "ahmedabad",
+        "dlsaOffice": { "name": "Ahmedabad District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Ahmedabad", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "slug": "haryana",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Gurugram",
+        "slug": "gurugram",
+        "dlsaOffice": { "name": "Gurugram District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Gurugram", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "slug": "himachal-pradesh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Shimla",
+        "slug": "shimla",
+        "dlsaOffice": { "name": "Shimla District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Shimla", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "slug": "jharkhand",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Ranchi",
+        "slug": "ranchi",
+        "dlsaOffice": { "name": "Ranchi District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Ranchi", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "slug": "karnataka",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Bengaluru",
+        "slug": "bengaluru",
+        "dlsaOffice": { "name": "Bengaluru Urban District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Bengaluru", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "slug": "kerala",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Thiruvananthapuram",
+        "slug": "thiruvananthapuram",
+        "dlsaOffice": { "name": "Thiruvananthapuram District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Thiruvananthapuram", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "slug": "madhya-pradesh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Bhopal",
+        "slug": "bhopal",
+        "dlsaOffice": { "name": "Bhopal District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Bhopal", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "slug": "manipur",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Imphal",
+        "slug": "imphal",
+        "dlsaOffice": { "name": "Imphal West District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Imphal", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Meghalaya",
+    "slug": "meghalaya",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Shillong",
+        "slug": "shillong",
+        "dlsaOffice": { "name": "East Khasi Hills District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Shillong", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Mizoram",
+    "slug": "mizoram",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Aizawl",
+        "slug": "aizawl",
+        "dlsaOffice": { "name": "Aizawl District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Aizawl", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Nagaland",
+    "slug": "nagaland",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Kohima",
+        "slug": "kohima",
+        "dlsaOffice": { "name": "Kohima District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Kohima", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "slug": "odisha",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Bhubaneswar",
+        "slug": "bhubaneswar",
+        "dlsaOffice": { "name": "Khordha District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Bhubaneswar", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "slug": "punjab",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Ludhiana",
+        "slug": "ludhiana",
+        "dlsaOffice": { "name": "Ludhiana District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Ludhiana", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "slug": "rajasthan",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Jaipur",
+        "slug": "jaipur",
+        "dlsaOffice": { "name": "Jaipur District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Jaipur", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Sikkim",
+    "slug": "sikkim",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Gangtok",
+        "slug": "gangtok",
+        "dlsaOffice": { "name": "East Sikkim District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Gangtok", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "slug": "tamil-nadu",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Chennai",
+        "slug": "chennai",
+        "dlsaOffice": { "name": "Chennai District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Chennai", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "slug": "telangana",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Hyderabad",
+        "slug": "hyderabad",
+        "dlsaOffice": { "name": "Hyderabad District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Hyderabad", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Tripura",
+    "slug": "tripura",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Agartala",
+        "slug": "agartala",
+        "dlsaOffice": { "name": "West Tripura District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Agartala", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "slug": "uttar-pradesh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Lucknow",
+        "slug": "lucknow",
+        "dlsaOffice": { "name": "Lucknow District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Lucknow", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "slug": "uttarakhand",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Dehradun",
+        "slug": "dehradun",
+        "dlsaOffice": { "name": "Dehradun District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Dehradun", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "slug": "west-bengal",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Kolkata",
+        "slug": "kolkata",
+        "dlsaOffice": { "name": "Kolkata District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Kolkata", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "slug": "andaman-and-nicobar-islands",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Port Blair",
+        "slug": "port-blair",
+        "dlsaOffice": { "name": "South Andaman District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Port Blair", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Chandigarh",
+    "slug": "chandigarh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Chandigarh",
+        "slug": "chandigarh",
+        "dlsaOffice": { "name": "Chandigarh District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Chandigarh", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Daman",
+        "slug": "daman",
+        "dlsaOffice": { "name": "Daman District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Daman", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "slug": "delhi",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Central Delhi",
+        "slug": "central-delhi",
+        "dlsaOffice": { "name": "Central Delhi District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Central Delhi", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "slug": "jammu-and-kashmir",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Srinagar",
+        "slug": "srinagar",
+        "dlsaOffice": { "name": "Srinagar District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Srinagar", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Ladakh",
+    "slug": "ladakh",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Leh",
+        "slug": "leh",
+        "dlsaOffice": { "name": "Leh District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Leh", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Lakshadweep",
+    "slug": "lakshadweep",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Kavaratti",
+        "slug": "kavaratti",
+        "dlsaOffice": { "name": "Lakshadweep District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Kavaratti", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  },
+  {
+    "state": "Puducherry",
+    "slug": "puducherry",
+    "ambulanceNumber": null,
+    "policeFirPortalUrl": null,
+    "stateLegalServicesAuthorityUrl": null,
+    "verified": false,
+    "lastCheckedAt": null,
+    "districts": [
+      {
+        "district": "Puducherry",
+        "slug": "puducherry",
+        "dlsaOffice": { "name": "Puducherry District Legal Services Authority", "address": null, "phone": null },
+        "mactTribunal": { "name": "Motor Accidents Claims Tribunal, Puducherry", "address": null },
+        "designatedHospitals": [],
+        "verified": false,
+        "lastCheckedAt": null
+      }
+    ]
+  }
+]

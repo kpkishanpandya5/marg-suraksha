@@ -1,0 +1,92 @@
+[
+  {
+    "id": "fir",
+    "name": "First Information Report (FIR)",
+    "whoIssuesIt": "The police station where the accident was reported.",
+    "whyYouNeedIt": "The FIR is the foundation of both the criminal case and your compensation claim. The FIR number is also your key to tracking the case later — on the eCourts portal (ecourts.gov.in) you can check case status, hearing dates, and orders using the FIR number and police station.",
+    "howToAskForIt": "Ask the investigating officer directly — you are legally entitled to a free copy immediately after it is recorded. If the officer is not cooperative, most states now publish FIRs online through their state police portal. Go to your state's police portal, find the police station that handled your case (navigate by district, city, or town), and look for that day's FIRs — you may need to go through several to find yours. The FIR number is printed on the document and is the most important piece of information to note down.",
+    "commonRefusalAndWhatToDo": "Officers sometimes say they cannot share it until the investigation closes. This is incorrect. Under Section 154(2) CrPC (now BNSS), you are entitled to a copy immediately. If refused in person, try the state police's online portal. The help-near-me page has the FIR portal link for Maharashtra — check your state's equivalent.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "form-i",
+    "name": "Form-I (First Accident Report)",
+    "whoIssuesIt": "The investigating officer.",
+    "whyYouNeedIt": "This is the official police record of the accident. It is required for both the cashless treatment claim and the MACT compensation claim.",
+    "howToAskForIt": "Ask the investigating officer. The officer must provide it within 10 days of the accident.",
+    "commonRefusalAndWhatToDo": "If the officer refuses, contact the District Legal Services Authority (DLSA) for free legal assistance.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "mlc",
+    "name": "Medico-Legal Certificate (MLC)",
+    "whoIssuesIt": "The hospital where the victim was treated.",
+    "whyYouNeedIt": "Documents the nature and extent of injuries. Required for the compensation claim.",
+    "howToAskForIt": "Request it from the hospital medical records department. In death cases, ask for the post-mortem report as well.",
+    "commonRefusalAndWhatToDo": "Hospitals cannot withhold this from the victim or their legal representative. If refused, contact the hospital's medical superintendent or the State Medical Council.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "form-xii",
+    "name": "Form-XII (Victim Impact Form)",
+    "whoIssuesIt": "The investigating officer.",
+    "whyYouNeedIt": "Records the impact of the accident on the victim and their family. Used in computing compensation.",
+    "howToAskForIt": "Ask the investigating officer. It must be provided within 10 days of the accident.",
+    "commonRefusalAndWhatToDo": "Contact the DLSA if the officer refuses.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "document-translation",
+    "name": "Translation of regional-language documents",
+    "whoIssuesIt": "A certified legal translator or translation agency.",
+    "whyYouNeedIt": "Police documents (FIR, panchnama), medical reports, and court documents in many states are written in the regional language — Gujarati in Gujarat, Marathi in Maharashtra, Tamil in Tamil Nadu, and so on. Insurance companies, MACT tribunals, and the NHA cashless scheme system may require you to submit an English or Hindi version. If you are pursuing a claim in a different state from where the accident happened, a translation is almost certainly needed.",
+    "howToAskForIt": "Search for a 'certified legal translator' or 'notarized translation service' in your city. The translation must be done by a qualified translator and then notarized — a notary public stamps the document to confirm the translator's credentials and accuracy. Before you accept the translation, show it to someone who reads both the source language and the target language, if you can. A wrong translation in a legal document can cause serious problems in your claim.",
+    "commonRefusalAndWhatToDo": "Some translation services will not do notarized translations for legal documents. Look specifically for services that offer 'sworn' or 'notarized' translations. Your District Legal Services Authority (DLSA) may be able to refer you to a translator.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "panchnama",
+    "name": "Panchnama (Spot Panchnama / Scene of Accident Report)",
+    "whoIssuesIt": "The investigating police officer, prepared at the accident site.",
+    "whyYouNeedIt": "The panchnama is the official police record of the physical scene. It documents the position of vehicles, skid marks, damage, road conditions, and any other evidence at the spot. It is a key piece of evidence in both criminal proceedings and your compensation claim, because it establishes how the accident happened.",
+    "howToAskForIt": "Ask the investigating officer for a copy of the spot panchnama. It is prepared at the time of the investigation and should be part of the police file. Request it in writing if the officer is not cooperative.",
+    "commonRefusalAndWhatToDo": "Police sometimes say it is part of the case file and cannot be shared. As a victim or legal representative you are entitled to copies of documents in the chargesheet. Contact the DLSA for assistance if refused.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "pm-report",
+    "name": "Post-Mortem Report (PM Report)",
+    "whoIssuesIt": "The government doctor or forensic medical officer who conducted the post-mortem examination.",
+    "whyYouNeedIt": "In death cases, the post-mortem report establishes the cause of death and the nature of injuries. It is required for the MACT compensation claim and is a critical document in any criminal proceedings.",
+    "howToAskForIt": "Request it from the hospital or mortuary where the post-mortem was conducted. The next-of-kin is entitled to a copy. Ask the investigating officer to help if the hospital is uncooperative — the report is part of the police file and the officer has a copy.",
+    "commonRefusalAndWhatToDo": "If the hospital refuses, approach the Chief Medical Officer (CMO) of the district. The family has a legal right to this document.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "final-report",
+    "name": "Final Report / Chargesheet (Police Closing Document)",
+    "whoIssuesIt": "The investigating officer, filed in court at the end of the police investigation.",
+    "whyYouNeedIt": "This tells you what the police concluded about the accident and what charges, if any, were filed against the driver. There are two possible outcomes: a chargesheet (if the police found enough evidence to prosecute) or a closure report / summary (if the accused was not traced or not enough evidence was found). You need to know which was filed, because it affects your compensation claim strategy.",
+    "howToAskForIt": "Ask the investigating officer whether the chargesheet or summary has been filed in court. Once filed, it becomes a court record. You can apply to the court for a certified copy.",
+    "commonRefusalAndWhatToDo": "If the officer says the investigation is still pending, note the date and follow up. Investigations have time limits. The DLSA can help you track this.",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  },
+  {
+    "id": "edar-victim-id",
+    "name": "eDAR Victim ID",
+    "whoIssuesIt": "The police, via the eDAR (electronic Detailed Accident Report) system.",
+    "whyYouNeedIt": "Links the accident case to the cashless treatment claim in the National Health Authority system, and to the later MACT compensation claim. Getting this generated early matters.",
+    "howToAskForIt": "Ask the investigating officer to ensure the eDAR is filed and the Victim ID generated. Confirm with the treating hospital that they have received the ID.",
+    "commonRefusalAndWhatToDo": "If police are not filing the eDAR, contact the State Road Safety Council nodal officer or call 14555.",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3250413d2982f1f83aa62a3a323cd2a87/uploads/2025/05/202505151230594664.pdf",
+    "verified": true
+  }
+]

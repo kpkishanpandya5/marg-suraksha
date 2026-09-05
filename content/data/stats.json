@@ -1,0 +1,111 @@
+[
+  {
+    "id": "accidents-2024",
+    "label": "Road accidents in 2024",
+    "value": "4,87,707",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "deaths-2024",
+    "label": "Deaths in 2024",
+    "value": "1,77,175",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "injuries-2024",
+    "label": "Injuries in 2024",
+    "value": "4,71,441",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "daily-accidents",
+    "label": "Average accidents per day",
+    "value": "1,336",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "daily-deaths",
+    "label": "Average deaths per day",
+    "value": "485",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "severity-2024",
+    "label": "Accident severity (deaths per 100 accidents) in 2024",
+    "value": "36.3",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "severity-2005",
+    "label": "Accident severity (deaths per 100 accidents) in 2005",
+    "value": "21.6",
+    "year": 2005,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "nh-accidents-2024",
+    "label": "National Highway accidents in 2024",
+    "value": "1,50,958",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "nh-deaths-2024",
+    "label": "National Highway deaths in 2024",
+    "value": "64,772",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "speeding-deaths",
+    "label": "Share of deaths attributed to over-speeding",
+    "value": "~70%",
+    "year": 2024,
+    "source": "MoRTH, Road Accidents in India 2024",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true
+  },
+  {
+    "id": "srs-undercount-note",
+    "label": "Undercount note",
+    "value": "India's Sample Registration System implied roughly 2,70,000 road deaths in 2022 against about 1,68,000 officially reported.",
+    "year": 2022,
+    "source": "India Sample Registration System / MoRTH comparison",
+    "sourceUrl": "https://morth.nic.in/road-accident-in-india",
+    "verified": true,
+    "isNote": true
+  },
+  {
+    "id": "hit-run-compensation",
+    "label": "Compensation for death in untraced-vehicle (hit-and-run) case",
+    "value": "₹2 lakh",
+    "year": 2024,
+    "source": "Motor Vehicles Act / MoRTH",
+    "sourceUrl": "https://mact.hcnlservices.in/",
+    "verified": true
+  }
+]

@@ -1,12 +1,14 @@
 {
-  "name": "after-road-accident",
+  "name": "marg-suraksha",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npx tsx scripts/check-content.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch-gdelt": "npx tsx scripts/fetch-gdelt.ts"
   },
   "dependencies": {
     "next": "16.3.4",
@@ -21,6 +23,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
     "tailwindcss": "^4",
+    "tsx": "^4.23.13",
     "typescript": "^5"
   }
 }

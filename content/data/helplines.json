@@ -1,0 +1,26 @@
+[
+  {
+    "id": "112",
+    "number": "112",
+    "whatItIsFor": "National emergency number (ERSS). Requests ambulance support and identifies the nearest hospital designated under the cashless scheme.",
+    "whenToUse": "Any emergency. Call this first if you are unsure which number to use.",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3250413d2982f1f83aa62a3a323cd2a87/uploads/2025/05/202505151230594664.pdf",
+    "verified": true
+  },
+  {
+    "id": "108",
+    "number": "108",
+    "whatItIsFor": "Ambulance in most states.",
+    "whenToUse": "When you need an ambulance and 112 is busy or unresponsive.",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3250413d2982f1f83aa62a3a323cd2a87/uploads/2025/05/202505151230594664.pdf",
+    "verified": true
+  },
+  {
+    "id": "14555",
+    "number": "14555",
+    "whatItIsFor": "National Health Authority helpline, for grievances about the cashless treatment scheme.",
+    "whenToUse": "If a hospital refuses cashless treatment or there is a problem with a claim under the 2025 scheme.",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3250413d2982f1f83aa62a3a323cd2a87/uploads/2025/05/202505151230594664.pdf",
+    "verified": true
+  }
+]
