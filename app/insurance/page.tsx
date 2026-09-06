@@ -142,6 +142,69 @@ export default function InsurancePage() {
         </div>
       </section>
 
+      <section className="mb-10" aria-labelledby="finding-heading">
+        <h2 id="finding-heading" className="text-xl font-semibold mb-3">
+          How to find policies you did not know about
+        </h2>
+        <p className="mb-3">
+          Families often discover months later that a policy existed and the claim window has
+          closed. People rarely tell their family about every policy they hold, and premiums are
+          usually debited automatically without anyone noticing. It is worth spending an hour
+          looking, even if you are fairly sure there was nothing.
+        </p>
+
+        <div className="space-y-5 mt-5">
+          <div>
+            <h3 className="font-semibold mb-1">Go through their SMS inbox</h3>
+            <p>
+              Insurers and banks send premium debit alerts, renewal reminders, and policy
+              confirmations by SMS. Search the messages for policy, premium, insurance, renewal,
+              LIC, and insurer names. These messages usually carry a policy number, which is all
+              you need to start a claim.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-1">Go through their email</h3>
+            <p>
+              Search for the same words. Insurers email annual statements and renewal notices, and
+              these often survive in an inbox long after the paper document has been lost. Check
+              the spam and promotions folders too.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-1">Go through bank statements</h3>
+            <p>
+              This is the most reliable method. Pull twelve to eighteen months of statements for
+              every account and look for recurring debits to an insurer. A small annual debit of a
+              few hundred rupees is easy to overlook but often means an active policy. PMSBY and
+              PMJJBY premiums show up exactly this way. Note the precise name on the debit line,
+              because that identifies the insurer.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-1">Ask the bank directly</h3>
+            <p>
+              Visit the branch with the death certificate and account details. Ask them to check
+              for insurance linked to the account, any policy sold through the branch, and any
+              cover attached to a debit or credit card. Banks sell insurance on behalf of insurers,
+              so the branch often holds records that appear nowhere else. Ask them to check every
+              account the person held, not only the main one.
+            </p>
+          </div>
+        </div>
+
+        <div className="border-l-4 border-[#E5E7EB] pl-4 py-2 mt-5">
+          <p className="text-sm text-[#6B7280]">
+            If you find a policy number but cannot work out which insurer it belongs to, the
+            Insurance Regulatory and Development Authority of India (IRDAI) runs a grievance
+            service that can help trace it.
+          </p>
+        </div>
+      </section>
+
       <section className="mb-10" aria-labelledby="employer-heading">
         <h2 id="employer-heading" className="text-xl font-semibold mb-3">
           Employer-provided insurance

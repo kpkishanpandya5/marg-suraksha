@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import statesData from '@/content/data/states.json'
 import helplinesData from '@/content/data/helplines.json'
 import { t } from '@/lib/i18n'
@@ -36,7 +35,8 @@ export default function HelpNearMePage() {
 
             {!state.verified && (
               <p className="text-sm text-[#6B7280] mb-3 border-l-4 border-[#E5E7EB] pl-3">
-                {t('helpNearMe.unverifiedNotice')}
+                We have not verified office details for {state.state} yet. The
+                national numbers above work everywhere in India.
               </p>
             )}
 
@@ -82,12 +82,6 @@ export default function HelpNearMePage() {
                   >
                     <h3 className="font-semibold mb-1">{district.district}</h3>
 
-                    {!district.verified && (
-                      <p className="text-sm text-[#6B7280] mb-2">
-                        {t('helpNearMe.unverifiedNotice')}
-                      </p>
-                    )}
-
                     {district.verified && district.dlsaOffice && (
                       <div className="mb-2 text-sm">
                         <p className="font-medium">{district.dlsaOffice.name}</p>
@@ -116,7 +110,11 @@ export default function HelpNearMePage() {
 
                     {!district.verified && (
                       <p className="text-sm text-[#6B7280]">
-                        {t('helpNearMe.searchSuggestion')}
+                        Not verified yet. Search for{' '}
+                        <strong>
+                          District Legal Services Authority {district.district}
+                        </strong>
+                        , or call 112.
                       </p>
                     )}
                   </div>

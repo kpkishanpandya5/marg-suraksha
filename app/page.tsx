@@ -57,6 +57,14 @@ export default function HomePage() {
           <li><Link href="/data">{t('nav.data')}</Link></li>
         </ul>
       </nav>
+
+      <aside className="mt-10 pt-6 border-t border-[#E5E7EB] max-prose">
+        <p className="text-[#1A1A1A]">
+          If you found this page by chance rather than by need, and the people you
+          love are all still well, tell them so today. Nobody has ever regretted
+          saying it.
+        </p>
+      </aside>
     </div>
   )
 }
