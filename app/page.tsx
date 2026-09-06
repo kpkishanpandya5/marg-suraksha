@@ -59,10 +59,12 @@ export default function HomePage() {
       </nav>
 
       <aside className="mt-10 pt-6 border-t border-[#E5E7EB] max-prose">
+        <p className="text-[#1A1A1A] mb-3">
+          Most people reach this page after something has already happened.
+        </p>
         <p className="text-[#1A1A1A]">
-          If you found this page by chance rather than by need, and the people you
-          love are all still well, tell them so today. Nobody has ever regretted
-          saying it.
+          If you have not, call someone you love today. Say thank you. Say I love
+          you. Do not save it for a better moment.
         </p>
       </aside>
     </div>
