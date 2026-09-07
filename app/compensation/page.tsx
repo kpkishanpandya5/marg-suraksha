@@ -1,13 +1,20 @@
 import Link from 'next/link'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Claiming compensation',
+  description:
+    'How to claim compensation after a road accident in India through the Motor Accidents Claims Tribunal (MACT) and the hit-and-run Solatium Fund, with free legal aid from the DLSA.',
+  path: '/compensation/',
+})
 
 export default function CompensationPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('compensation.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="compensation.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        There are two separate routes for compensation after a road accident in
-        India. Both can run in parallel.
+        <T k="compensation.intro" />
       </p>
 
       <section className="mb-10" aria-labelledby="mact-heading">

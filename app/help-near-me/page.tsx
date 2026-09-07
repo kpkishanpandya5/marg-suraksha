@@ -1,14 +1,22 @@
 import statesData from '@/content/data/states.json'
 import helplinesData from '@/content/data/helplines.json'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+import { ERROR_REPORT_EMAIL } from '@/lib/site'
+
+export const metadata = pageMetadata({
+  title: 'Help near you',
+  description:
+    'Find your local Motor Accidents Claims Tribunal and District Legal Services Authority in India, plus the national emergency numbers that work everywhere.',
+  path: '/help-near-me/',
+})
 
 export default function HelpNearMePage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('helpNearMe.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="helpNearMe.title" /></h1>
       <p className="text-[#6B7280] mb-6">
-        Select your state and district to find your local MACT tribunal and
-        District Legal Services Authority (DLSA).
+        <T k="helpNearMe.intro" />
       </p>
 
       <div className="border border-[#E5E7EB] p-4 mb-8 bg-white">
@@ -129,8 +137,7 @@ export default function HelpNearMePage() {
 
       <p className="mt-6 text-sm text-[#6B7280]">
         Data is incomplete for most states and districts.{' '}
-        {/* TODO: replace errors@example.com with real address before launch */}
-        <a href="mailto:errors@example.com">Help us improve this page.</a>
+        <a href={`mailto:${ERROR_REPORT_EMAIL}`}>Help us improve this page.</a>
       </p>
     </div>
   )

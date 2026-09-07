@@ -1,12 +1,20 @@
 import Link from 'next/link'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'It just happened',
+  description:
+    'A brief orientation for right after a road accident in India: call 112, get to a hospital designated for cashless treatment, and say the words "road accident case".',
+  path: '/just-happened/',
+})
 
 export default function JustHappenedPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-4">It just happened</h1>
+      <h1 className="text-2xl font-semibold mb-4"><T k="justHappened.h1" /></h1>
       <p className="text-[#6B7280] mb-6">
-        This is a brief orientation. Go to the full checklist for step-by-step
-        guidance on what to do.
+        <T k="justHappened.intro" />
       </p>
 
       <div className="mb-8">

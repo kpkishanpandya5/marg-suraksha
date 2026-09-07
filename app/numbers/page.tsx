@@ -1,13 +1,21 @@
 import helplinesData from '@/content/data/helplines.json'
 import PrintButton from '@/components/PrintButton'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'All helpline numbers',
+  description:
+    'Helpline numbers for after a road accident in India: 112 emergency, 108 ambulance, 14555 for cashless treatment problems, and NALSA 15100 for free legal aid.',
+  path: '/numbers/',
+})
 
 export default function NumbersPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('numbers.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="numbers.title" /></h1>
       <p className="text-[#6B7280] mb-2">
-        These numbers work across India. Save them before you need them.
+        <T k="numbers.intro" />
       </p>
       <div className="mb-8 no-print">
         <PrintButton label="Print this page" />
@@ -17,7 +25,13 @@ export default function NumbersPage() {
         {helplinesData.map((h) => (
           <div key={h.id} className="border-b border-[#E5E7EB] pb-6">
             <div className="flex items-baseline gap-4 mb-1">
-              <span className="text-3xl font-bold text-[#1D4ED8]">{h.number}</span>
+              <a
+                href={`tel:${h.number}`}
+                className="text-3xl font-bold text-[#1D4ED8] no-underline"
+                aria-label={`Call ${h.number}`}
+              >
+                {h.number}
+              </a>
             </div>
             <p className="font-semibold mb-1">{h.whatItIsFor}</p>
             <p className="text-[#6B7280] text-sm mb-2">{h.whenToUse}</p>
@@ -39,7 +53,8 @@ export default function NumbersPage() {
             legal aid. Search online for your district&apos;s DLSA number.
           </li>
           <li>
-            <strong>National Legal Services Authority (NALSA)</strong> — 15100
+            <strong>National Legal Services Authority (NALSA)</strong> —{' '}
+            <a href="tel:15100">15100</a>
           </li>
           <li>
             <strong>Motor Vehicles Accident Claims Portal</strong>{' '}

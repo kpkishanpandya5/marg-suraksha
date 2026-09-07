@@ -12,6 +12,9 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # fetch-gdelt.ts retries with backoff on GDELT's 429s; cap the job so a stuck
+    # run can't hang. On failure the script keeps the last good updates.json.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

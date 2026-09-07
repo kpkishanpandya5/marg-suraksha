@@ -1,14 +1,20 @@
 import Link from 'next/link'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Cashless treatment scheme (2025)',
+  description:
+    'Road accident victims in India can get cashless emergency treatment up to Rs 1.5 lakh for 7 days at designated hospitals, regardless of fault or insurance. How to use it and what to do if refused.',
+  path: '/cashless-treatment/',
+})
 
 export default function CashlessTreatmentPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('cashless.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="cashless.title" /></h1>
       <p className="text-[#6B7280] mb-6">
-        Since 2025, road accident victims in India are entitled to cashless
-        emergency treatment at designated hospitals — regardless of who was at
-        fault and regardless of whether the vehicle is insured.
+        <T k="cashless.intro" />
       </p>
 
       <section className="mb-8" aria-labelledby="what-heading">

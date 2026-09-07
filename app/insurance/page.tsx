@@ -1,13 +1,20 @@
 import Link from 'next/link'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Insurance schemes you may already have',
+  description:
+    'Government and bank-linked insurance that often pays out after a road accident in India: PMSBY, PMJJBY, Jan Dhan cover, and how to trace policies you did not know about.',
+  path: '/insurance/',
+})
 
 export default function InsurancePage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">Insurance schemes you may already have</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="insurance.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        Several government insurance schemes are linked to ordinary savings bank accounts. Many
-        families do not realise they have coverage until after an accident. Check before assuming
-        there is nothing to claim.
+        <T k="insurance.intro" />
       </p>
 
       <section className="mb-10" aria-labelledby="pmsby-heading">

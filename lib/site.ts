@@ -1,8 +1,8 @@
 export const SITE_NAME = 'Marg Suraksha'
 export const SITE_NAME_DEVANAGARI = 'मार्ग सुरक्षा'
 
-// TODO: set to the real domain before launch
-export const SITE_URL = 'https://marg-suraksha.vercel.app'
+// Canonical host. The apex (margsuraksha.com) 308-redirects to www, so www is canonical.
+export const SITE_URL = 'https://www.margsuraksha.com'
 
-// TODO: replace with a real address before launch
-export const ERROR_REPORT_EMAIL = 'errors@example.com'
+// Error-report address for the footer "Is something here wrong?" link.
+export const ERROR_REPORT_EMAIL = 'kpkishanpandya5+margsuraksha@gmail.com'

@@ -1,13 +1,20 @@
 import documentsData from '@/content/data/documents.json'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Documents you need',
+  description:
+    'The documents to collect after a road accident in India: who issues each one, why it matters for your claim, how to ask, and what to do if an office refuses.',
+  path: '/documents/',
+})
 
 export default function DocumentsPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('docs.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="docs.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        Start collecting these as soon as the situation allows. Each one serves a
-        specific legal purpose. You are entitled to all of them.
+        <T k="docs.intro" />
       </p>
 
       <div className="space-y-10">

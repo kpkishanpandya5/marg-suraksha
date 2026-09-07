@@ -1,18 +1,13 @@
 import statsData from '@/content/data/stats.json'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
+import { pageMetadata } from '@/lib/metadata'
 
-// Placeholder time-of-day data — needs real MoRTH breakdown
-// TODO: replace with actual MoRTH time-of-day figures when available
-const timeOfDayPlaceholder = [
-  { period: '12am–3am', share: 8 },
-  { period: '3am–6am', share: 6 },
-  { period: '6am–9am', share: 12 },
-  { period: '9am–12pm', share: 11 },
-  { period: '12pm–3pm', share: 13 },
-  { period: '3pm–6pm', share: 16 },
-  { period: '6pm–9pm', share: 20 },
-  { period: '9pm–12am', share: 14 },
-]
+export const metadata = pageMetadata({
+  title: 'Road accident figures in India',
+  description:
+    'Key road accident figures for India from official MoRTH and government sources, with every number linked to the source it came from.',
+  path: '/data/',
+})
 
 export default function DataPage() {
   const mainStats = statsData.filter((s) => !s.isNote)
@@ -20,10 +15,9 @@ export default function DataPage() {
 
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('data.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="data.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        All figures from official government sources. Sources are linked for each
-        item.
+        <T k="data.intro" />
       </p>
 
       <section className="mb-10" aria-labelledby="key-stats-heading">
@@ -68,38 +62,11 @@ export default function DataPage() {
         </p>
       </section>
 
-      <section className="mb-10" aria-labelledby="time-heading">
-        <h2 id="time-heading" className="text-xl font-semibold mb-2">
-          Accidents by time of day
-        </h2>
-        <p className="text-sm text-[#6B7280] mb-4">
-          <strong>Note:</strong> These figures are placeholder estimates. The
-          exact MoRTH time-of-day breakdown was not available at the time of
-          publication. This chart needs to be replaced with the actual MoRTH
-          data. {/* TODO: replace with real MoRTH time-of-day data */}
-        </p>
-        <div className="border border-[#E5E7EB] p-4">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-[#E5E7EB]">
-                <th className="text-left py-1 pr-4 font-semibold">Period</th>
-                <th className="text-right py-1 font-semibold">Share of accidents</th>
-              </tr>
-            </thead>
-            <tbody>
-              {timeOfDayPlaceholder.map((row) => (
-                <tr key={row.period} className="border-b border-[#E5E7EB]">
-                  <td className="py-1 pr-4">{row.period}</td>
-                  <td className="py-1 text-right">{row.share}%</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <p className="text-xs text-[#6B7280] mt-2 italic">
-            Placeholder data — do not cite. Replace before publishing.
-          </p>
-        </div>
-      </section>
+      {/*
+        The "Accidents by time of day" section was removed before launch: it held
+        placeholder estimates, not real MoRTH data. Restore it here once the actual
+        MoRTH time-of-day breakdown is available.
+      */}
 
       {notes.length > 0 && (
         <section className="mb-8" aria-labelledby="notes-heading">
