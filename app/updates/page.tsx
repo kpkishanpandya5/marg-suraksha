@@ -1,5 +1,5 @@
 import updatesData from '@/content/data/updates.json'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
@@ -49,10 +49,9 @@ export default function UpdatesPage() {
 
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('updates.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="updates.title" /></h1>
       <p className="text-[#6B7280] mb-2">
-        Policy news, court rulings, and rights updates from Indian sources.
-        Fetched from GDELT at build time.
+        <T k="updates.intro" />
       </p>
       {updatesData.fetchedAt && (
         <p className="text-xs text-[#6B7280] mb-6">

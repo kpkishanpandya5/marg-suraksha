@@ -1,5 +1,5 @@
 import statsData from '@/content/data/stats.json'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
@@ -15,10 +15,9 @@ export default function DataPage() {
 
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('data.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="data.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        All figures from official government sources. Sources are linked for each
-        item.
+        <T k="data.intro" />
       </p>
 
       <section className="mb-10" aria-labelledby="key-stats-heading">

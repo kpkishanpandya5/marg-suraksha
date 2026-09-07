@@ -53,6 +53,24 @@ body {
   max-width: 65ch;
 }
 
+/* Bilingual UI: <html data-lang="en|hi"> picks which language is visible.
+   Both strings stay in the DOM (rendered by components/T.tsx) so crawlers
+   index the Hindi text; the LangToggle flips the attribute. Default is "en". */
+:root[data-lang='hi'] .lang-en {
+  display: none;
+}
+:root[data-lang='en'] .lang-hi {
+  display: none;
+}
+
+/* Language toggle: highlight the button for the active language. */
+:root[data-lang='en'] .lt-en,
+:root[data-lang='hi'] .lt-hi {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 @media print {
   nav, footer, .no-print {
     display: none !important;

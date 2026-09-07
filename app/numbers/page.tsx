@@ -1,6 +1,6 @@
 import helplinesData from '@/content/data/helplines.json'
 import PrintButton from '@/components/PrintButton'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
@@ -13,9 +13,9 @@ export const metadata = pageMetadata({
 export default function NumbersPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('numbers.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="numbers.title" /></h1>
       <p className="text-[#6B7280] mb-2">
-        These numbers work across India. Save them before you need them.
+        <T k="numbers.intro" />
       </p>
       <div className="mb-8 no-print">
         <PrintButton label="Print this page" />

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
@@ -11,10 +12,9 @@ export const metadata = pageMetadata({
 export default function JustHappenedPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-4">It just happened</h1>
+      <h1 className="text-2xl font-semibold mb-4"><T k="justHappened.h1" /></h1>
       <p className="text-[#6B7280] mb-6">
-        This is a brief orientation. Go to the full checklist for step-by-step
-        guidance on what to do.
+        <T k="justHappened.intro" />
       </p>
 
       <div className="mb-8">

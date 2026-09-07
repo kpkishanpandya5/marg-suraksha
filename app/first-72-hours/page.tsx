@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import PrintButton from '@/components/PrintButton'
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
 import { SITE_URL } from '@/lib/site'
 import { pageMetadata } from '@/lib/metadata'
 
@@ -79,9 +79,9 @@ export default function First72HoursPage() {
 
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-2">{t('72h.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-2"><T k="72h.title" /></h1>
       <p className="text-sm text-[#6B7280] mb-6">
-        Steps are in order. Do not skip ahead — each one depends on the one before.
+        <T k="72h.intro" />
       </p>
 
       <div className="no-print mb-6 flex gap-4 flex-wrap text-sm">

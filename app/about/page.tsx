@@ -1,4 +1,4 @@
-import { t } from '@/lib/i18n'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 import { ERROR_REPORT_EMAIL } from '@/lib/site'
 
@@ -12,14 +12,12 @@ export const metadata = pageMetadata({
 export default function AboutPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-4">{t('about.title')}</h1>
+      <h1 className="text-2xl font-semibold mb-4"><T k="about.title" /></h1>
 
       <section className="mb-8" aria-labelledby="purpose-heading">
         <h2 id="purpose-heading" className="text-xl font-semibold mb-3">Purpose</h2>
         <p className="mb-3">
-          This site helps families in India understand what to do after a road
-          accident. It covers the immediate steps, documents to collect, how to
-          access cashless treatment, and how to claim compensation.
+          <T k="about.intro" />
         </p>
         <p>
           The information is presented in plain language. It is non-commercial and
@@ -29,7 +27,7 @@ export default function AboutPage() {
 
       <section className="mb-8" aria-labelledby="disclaimer-heading">
         <h2 id="disclaimer-heading" className="text-xl font-semibold mb-3">Disclaimer</h2>
-        <p className="mb-3">{t('disclaimer.text')}</p>
+        <p className="mb-3"><T k="disclaimer.text" /></p>
       </section>
 
       <section className="mb-8" aria-labelledby="accuracy-heading">

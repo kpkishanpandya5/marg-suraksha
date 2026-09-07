@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
@@ -11,10 +12,9 @@ export const metadata = pageMetadata({
 export default function GriefPage() {
   return (
     <div className="max-prose">
-      <h1 className="text-2xl font-semibold mb-4">Grief and support</h1>
+      <h1 className="text-2xl font-semibold mb-4"><T k="grief.title" /></h1>
       <p className="text-[#6B7280] mb-8">
-        This page is for families managing the emotional reality of loss alongside the practical
-        demands of the process.
+        <T k="grief.intro" />
       </p>
 
       <section className="mb-10" aria-labelledby="grief-normal-heading">
