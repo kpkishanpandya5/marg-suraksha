@@ -1,5 +1,13 @@
 import documentsData from '@/content/data/documents.json'
 import { t } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Documents you need',
+  description:
+    'The documents to collect after a road accident in India: who issues each one, why it matters for your claim, how to ask, and what to do if an office refuses.',
+  path: '/documents/',
+})
 
 export default function DocumentsPage() {
   return (

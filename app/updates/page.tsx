@@ -1,5 +1,13 @@
 import updatesData from '@/content/data/updates.json'
 import { t } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Recent policy and rights news',
+  description:
+    'Recent policy news, court rulings, and rights updates on road accidents, compensation, and cashless treatment in India, drawn from Indian news sources.',
+  path: '/updates/',
+})
 
 interface Article {
   title: string

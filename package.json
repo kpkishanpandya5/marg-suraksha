@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npx tsx scripts/check-content.ts",
+    "prebuild": "npx tsx scripts/gen-og-image.ts && npx tsx scripts/check-content.ts",
+    "gen-og-image": "npx tsx scripts/gen-og-image.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

@@ -1,4 +1,13 @@
 import { t } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
+import { ERROR_REPORT_EMAIL } from '@/lib/site'
+
+export const metadata = pageMetadata({
+  title: 'About this site',
+  description:
+    'What Marg Suraksha is, how it is sourced and maintained, its privacy approach (no cookies, no analytics, no tracking), and how to report an error.',
+  path: '/about/',
+})
 
 export default function AboutPage() {
   return (
@@ -30,8 +39,7 @@ export default function AboutPage() {
           sourced. If you find an error or outdated information, please report it.
         </p>
         <p>
-          {/* TODO: replace errors@example.com with real address before launch */}
-          <a href="mailto:errors@example.com">errors@example.com</a>
+          <a href={`mailto:${ERROR_REPORT_EMAIL}`}>{ERROR_REPORT_EMAIL}</a>
         </p>
       </section>
 

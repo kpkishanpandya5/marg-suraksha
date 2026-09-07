@@ -1,4 +1,12 @@
 import Link from 'next/link'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Grief and support',
+  description:
+    'Support for families after a death on the road in India: what grief after sudden loss can look like, helping children cope, counselling helplines, and managing paperwork while grieving.',
+  path: '/grief/',
+})
 
 export default function GriefPage() {
   return (

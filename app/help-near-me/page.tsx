@@ -1,6 +1,15 @@
 import statesData from '@/content/data/states.json'
 import helplinesData from '@/content/data/helplines.json'
 import { t } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
+import { ERROR_REPORT_EMAIL } from '@/lib/site'
+
+export const metadata = pageMetadata({
+  title: 'Help near you',
+  description:
+    'Find your local Motor Accidents Claims Tribunal and District Legal Services Authority in India, plus the national emergency numbers that work everywhere.',
+  path: '/help-near-me/',
+})
 
 export default function HelpNearMePage() {
   return (
@@ -129,8 +138,7 @@ export default function HelpNearMePage() {
 
       <p className="mt-6 text-sm text-[#6B7280]">
         Data is incomplete for most states and districts.{' '}
-        {/* TODO: replace errors@example.com with real address before launch */}
-        <a href="mailto:errors@example.com">Help us improve this page.</a>
+        <a href={`mailto:${ERROR_REPORT_EMAIL}`}>Help us improve this page.</a>
       </p>
     </div>
   )

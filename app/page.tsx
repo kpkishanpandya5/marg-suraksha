@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import { t } from '@/lib/i18n'
-import { SITE_NAME_DEVANAGARI } from '@/lib/site'
+import { SITE_NAME, SITE_NAME_DEVANAGARI } from '@/lib/site'
+import { DEFAULT_DESCRIPTION, pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: `${SITE_NAME}: help after a road accident in India`,
+  description: DEFAULT_DESCRIPTION,
+  path: '/',
+})
 
 export default function HomePage() {
   return (

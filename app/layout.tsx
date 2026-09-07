@@ -3,7 +3,8 @@ import { Noto_Sans } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
-import { SITE_NAME } from '@/lib/site'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
+import { DEFAULT_DESCRIPTION, OG_IMAGE } from '@/lib/metadata'
 
 const notoSans = Noto_Sans({
   subsets: ['latin', 'devanagari'],
@@ -12,10 +13,28 @@ const notoSans = Noto_Sans({
   variable: '--font-noto-sans',
 })
 
+const HOME_TITLE = `${SITE_NAME}: help after a road accident in India`
+
 export const metadata: Metadata = {
-  title: `${SITE_NAME}: help after a road accident in India`,
-  description:
-    'What to do in the first 72 hours after a road accident in India: documents to collect, cashless treatment, insurance schemes, and how to claim compensation.',
+  metadataBase: new URL(SITE_URL),
+  title: HOME_TITLE,
+  description: DEFAULT_DESCRIPTION,
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    siteName: SITE_NAME,
+    locale: 'en_IN',
+    url: SITE_URL,
+    title: HOME_TITLE,
+    description: DEFAULT_DESCRIPTION,
+    images: [OG_IMAGE],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: HOME_TITLE,
+    description: DEFAULT_DESCRIPTION,
+    images: [OG_IMAGE],
+  },
 }
 
 export default function RootLayout({

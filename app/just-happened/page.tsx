@@ -1,4 +1,12 @@
 import Link from 'next/link'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'It just happened',
+  description:
+    'A brief orientation for right after a road accident in India: call 112, get to a hospital designated for cashless treatment, and say the words "road accident case".',
+  path: '/just-happened/',
+})
 
 export default function JustHappenedPage() {
   return (

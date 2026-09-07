@@ -1,0 +1,56 @@
+import type { Metadata } from 'next'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
+
+const DEFAULT_DESCRIPTION =
+  'What to do in the first 72 hours after a road accident in India: documents to collect, cashless treatment, insurance schemes, and how to claim compensation.'
+
+// Generated into public/ by scripts/gen-og-image.ts (see prebuild).
+const OG_IMAGE = {
+  url: '/og-image.png',
+  width: 1200,
+  height: 630,
+  alt: `${SITE_NAME} — help after a road accident in India`,
+}
+
+type PageMeta = {
+  /** Page title, usually the page H1. Not including the site name. */
+  title: string
+  /** Meta description, roughly 140-160 characters. */
+  description: string
+  /** Route path with leading and trailing slash, e.g. '/documents/'. Use '/' for the homepage. */
+  path: string
+}
+
+/**
+ * Builds a complete Metadata object for a route. openGraph and twitter are
+ * shallow-merged by Next (a page that sets them replaces the layout's), so every
+ * page needs the full object, not just the fields that differ.
+ */
+export function pageMetadata({ title, description, path }: PageMeta): Metadata {
+  const isHome = path === '/'
+  const fullTitle = isHome ? title : `${title}: ${SITE_NAME}`
+  const url = new URL(path, SITE_URL).toString()
+
+  return {
+    title: fullTitle,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: 'website',
+      siteName: SITE_NAME,
+      locale: 'en_IN',
+      url,
+      title: fullTitle,
+      description,
+      images: [OG_IMAGE],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: fullTitle,
+      description,
+      images: [OG_IMAGE],
+    },
+  }
+}
+
+export { DEFAULT_DESCRIPTION, OG_IMAGE }

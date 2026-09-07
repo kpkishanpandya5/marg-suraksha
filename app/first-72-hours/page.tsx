@@ -2,6 +2,14 @@ import Link from 'next/link'
 import PrintButton from '@/components/PrintButton'
 import { t } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/site'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'What to do in the first 72 hours',
+  description:
+    'A step-by-step checklist for the first 72 hours after a road accident in India: ambulance, cashless treatment, informing police, the FIR, the eDAR Victim ID, and free legal aid.',
+  path: '/first-72-hours/',
+})
 
 const steps = [
   {

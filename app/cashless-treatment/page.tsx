@@ -1,5 +1,13 @@
 import Link from 'next/link'
 import { t } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Cashless treatment scheme (2025)',
+  description:
+    'Road accident victims in India can get cashless emergency treatment up to Rs 1.5 lakh for 7 days at designated hospitals, regardless of fault or insurance. How to use it and what to do if refused.',
+  path: '/cashless-treatment/',
+})
 
 export default function CashlessTreatmentPage() {
   return (

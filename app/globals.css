@@ -32,6 +32,9 @@ body {
   a {
     color: var(--accent);
     text-decoration: underline;
+    /* Long raw URLs are used as link text in several places (sources, FIR portals).
+       Break them anywhere so they can't force horizontal scroll on narrow screens. */
+    overflow-wrap: anywhere;
   }
 
   a:focus-visible {

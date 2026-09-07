@@ -1,4 +1,12 @@
 import Link from 'next/link'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata({
+  title: 'Insurance schemes you may already have',
+  description:
+    'Government and bank-linked insurance that often pays out after a road accident in India: PMSBY, PMJJBY, Jan Dhan cover, and how to trace policies you did not know about.',
+  path: '/insurance/',
+})
 
 export default function InsurancePage() {
   return (
