@@ -51,6 +51,7 @@ export default function HomePage() {
         </p>
         <ul className="flex flex-col gap-1 text-sm list-none p-0 m-0">
           <li><Link href="/documents"><T k="nav.documents" /></Link></li>
+          <li><Link href="/mact-claim"><T k="nav.mactClaim" /></Link></li>
           <li><Link href="/cashless-treatment"><T k="nav.cashless" /></Link></li>
           <li><Link href="/insurance"><T k="nav.insurance" /></Link></li>
           <li><Link href="/grief"><T k="nav.grief" /></Link></li>

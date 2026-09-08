@@ -23,6 +23,7 @@ export default function Nav() {
           <Link href="/first-72-hours"><T k="nav.first72Hours" /></Link>
           <Link href="/documents"><T k="nav.documents" /></Link>
           <Link href="/compensation"><T k="nav.compensation" /></Link>
+          <Link href="/mact-claim"><T k="nav.mactClaim" /></Link>
           <Link href="/cashless-treatment"><T k="nav.cashless" /></Link>
           <Link href="/insurance"><T k="nav.insurance" /></Link>
           <Link href="/grief"><T k="nav.grief" /></Link>

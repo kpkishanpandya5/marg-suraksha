@@ -23,7 +23,11 @@ const KEYWORDS = [
   'road accident help India',
   'accident compensation India',
   'cashless treatment road accident',
+  'PM-RAHAT',
+  'PM RAHAT scheme',
   'MACT claim',
+  'MACT compensation calculation',
+  'motor accident compensation formula',
   'FIR after road accident India',
 ]
 

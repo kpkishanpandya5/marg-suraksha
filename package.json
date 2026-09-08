@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "node --import tsx --test lib/updates-filter.test.ts",
     "fetch-gdelt": "npx tsx scripts/fetch-gdelt.ts"
   },
   "dependencies": {

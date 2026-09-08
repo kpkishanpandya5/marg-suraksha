@@ -14,6 +14,7 @@ const ROUTES: Array<{ path: string; changeFrequency: ChangeFrequency; priority: 
   { path: '/first-72-hours/', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/documents/', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/compensation/', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/mact-claim/', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/cashless-treatment/', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/insurance/', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/grief/', changeFrequency: 'monthly', priority: 0.7 },

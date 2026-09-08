@@ -21,12 +21,14 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
+      # The relevance filter is pure and unit-tested; don't refresh on a broken filter.
+      - run: npm test
       - run: npx tsx scripts/fetch-gdelt.ts
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/data/updates.json
+          git add content/data/updates.json content/data/updates-rejected.json
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: nightly GDELT refresh"
           git push
