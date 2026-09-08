@@ -3,9 +3,9 @@ import T from '@/components/T'
 import { pageMetadata } from '@/lib/metadata'
 
 export const metadata = pageMetadata({
-  title: 'Cashless treatment scheme (2025)',
+  title: 'PM-RAHAT: cashless treatment for road accident victims',
   description:
-    'Road accident victims in India can get cashless emergency treatment up to Rs 1.5 lakh for 7 days at designated hospitals, regardless of fault or insurance. How to use it and what to do if refused.',
+    'PM-RAHAT (formerly the cashless treatment scheme) gives road accident victims in India up to Rs 1.5 lakh of cashless emergency treatment for 7 days at designated hospitals, regardless of fault or insurance. How to use it, stabilisation rights, and what to do if refused.',
   path: '/cashless-treatment/',
 })
 
@@ -17,14 +17,35 @@ export default function CashlessTreatmentPage() {
         <T k="cashless.intro" />
       </p>
 
+      <section className="mb-8" aria-labelledby="name-heading">
+        <h2 id="name-heading" className="text-xl font-semibold mb-3">The name</h2>
+        <p className="mb-3">
+          The scheme was launched by the Prime Minister on 13 February 2026 and formally renamed
+          the Prime Minister Road Accident Victims&apos; Hospitalisation and Assured Treatment
+          Scheme, <strong>PM-RAHAT</strong>, later that month. It is the same entitlement as the
+          2025 cashless treatment scheme, with the cover unchanged. Hospitals and police may
+          still call it &quot;cashless treatment&quot; or &quot;the road accident scheme&quot;.
+        </p>
+        <p className="mb-3">
+          PM-RAHAT is a statutory scheme and takes precedence over any other Central or State
+          scheme, so use those exact words: this is a road accident case under PM-RAHAT.
+        </p>
+      </section>
+
       <section className="mb-8" aria-labelledby="what-heading">
         <h2 id="what-heading" className="text-xl font-semibold mb-3">What the scheme covers</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Emergency treatment up to <strong>₹1.5 lakh</strong></li>
+          <li>Emergency treatment up to <strong>₹1.5 lakh</strong> per victim</li>
           <li>Treatment for up to <strong>7 days</strong> from the date of the accident</li>
+          <li>Any road, any category of accident involving a motor vehicle</li>
           <li>Available at hospitals <strong>designated under the scheme</strong> only</li>
           <li>No upfront payment required from the victim or family</li>
-          <li>Covers all road accident victims — pedestrians, passengers, and drivers</li>
+          <li>Covers all road accident victims: pedestrians, passengers, and drivers</li>
+          <li>
+            Guaranteed stabilisation even at a non-designated hospital:{' '}
+            <strong>up to 24 hours</strong> in non-life-threatening cases,{' '}
+            <strong>up to 48 hours</strong> in life-threatening cases, before transfer
+          </li>
         </ul>
       </section>
 
@@ -43,8 +64,10 @@ export default function CashlessTreatmentPage() {
           in each state and may be updated periodically.
         </p>
         <p className="mb-3">
-          If you are already at a non-designated hospital, the hospital must at minimum provide
-          stabilisation. Ask for a transfer to the nearest designated hospital after stabilisation.
+          If you are already at a non-designated hospital, the hospital must provide
+          stabilisation: up to 24 hours in non-life-threatening cases, up to 48 hours in
+          life-threatening cases. Ask for a transfer to the nearest designated hospital after
+          that.
         </p>
       </section>
 
@@ -83,13 +106,18 @@ export default function CashlessTreatmentPage() {
         <ol className="list-decimal pl-6 space-y-2">
           <li>Ask to speak to the medical superintendent immediately.</li>
           <li>
-            Call <strong>14555</strong> — the National Health Authority helpline
+            Call <a href="tel:14555">14555</a>, the National Health Authority helpline
             for grievances about this scheme.
           </li>
           <li>
-            Call <strong>112</strong> and report the refusal.
+            Call <a href="tel:112">112</a> and report the refusal.
           </li>
         </ol>
+        <p className="mb-3 mt-3">
+          The formal grievance route under PM-RAHAT is: the Grievance Redressal Officer appointed
+          by the District Road Safety Committee, then the District Collector, then the State Road
+          Safety Council.
+        </p>
       </section>
 
       <section className="mb-8" aria-labelledby="after-heading">
@@ -100,14 +128,24 @@ export default function CashlessTreatmentPage() {
           include these in a compensation claim through the MACT tribunal.
         </p>
         <p>
-          See <Link href="/compensation">the compensation page</Link>{' '}
-          for how to claim ongoing costs.
+          See <Link href="/mact-claim">how MACT compensation is worked out</Link> for how to
+          claim ongoing costs.
         </p>
       </section>
 
       <section className="mb-4" aria-labelledby="source-heading">
         <h2 id="source-heading" className="text-xl font-semibold mb-3">Sources</h2>
         <ul className="list-disc pl-6 space-y-1 text-sm">
+          <li>
+            <a
+              href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238637"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PIB, Ministry of Road Transport &amp; Highways, 11 March 2026 (PM-RAHAT: rename,
+              cover, stabilisation hours, grievance route)
+            </a>
+          </li>
           <li>
             <a
               href="https://cdnbbsr.s3waas.gov.in/s3250413d2982f1f83aa62a3a323cd2a87/uploads/2025/05/202505151230594664.pdf"
