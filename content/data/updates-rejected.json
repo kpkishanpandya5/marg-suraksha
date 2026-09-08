@@ -1,0 +1,713 @@
+{
+  "generatedAt": "2026-09-08T12:34:46.077Z",
+  "rawCount": 231,
+  "keptCount": 90,
+  "rejectedCount": 141,
+  "rejected": [
+    {
+      "title": "Doctor arrested with 8 - gm chitta in Kangra",
+      "domain": "himtimes.com",
+      "reason": "excluded topic \"chitta\""
+    },
+    {
+      "title": "Delhi Bus Gang Rape : Fingerprints Found , CCTV Failed ; ₹63 , 000 In Unpaid Challans ; What We Know So Far",
+      "domain": "oneindia.com",
+      "reason": "excluded topic \"gang rape\""
+    },
+    {
+      "title": "Virgo , Weekly Horoscope , August 30 to September 05 , 2026 : Experience fluctuating energies this week ; success requires effort and careful decision - making",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "excluded topic \"horoscope\""
+    },
+    {
+      "title": "Cancer Horoscope Today , August 28 , 2026 : Moon sparks caution today : Avoid distractions while driving and in relationships",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "excluded topic \"horoscope\""
+    },
+    {
+      "title": "Gwalior Man Fined Rs 5 , 500 Over 3 , 400 Lipstick Kiss Marks on Car",
+      "domain": "dailypioneer.com",
+      "reason": "excluded topic \"lipstick\""
+    },
+    {
+      "title": "3 , 400 Lipstick Kisses On Car Land Gwalior Man In Trouble , Police Fine Him ₹5 , 500",
+      "domain": "freepressjournal.in",
+      "reason": "excluded topic \"lipstick\""
+    },
+    {
+      "title": "A  kis too costly ? 3 , 400 lipstick marks , Rs 5 , 500 fine ; why defacing your car may land you in trouble",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "excluded topic \"lipstick\""
+    },
+    {
+      "title": "Man fined after girlfriend covers his car with 3 , 400 lipstick marks | Rediff - TV",
+      "domain": "tv.rediff.com",
+      "reason": "excluded topic \"lipstick\""
+    },
+    {
+      "title": "ग्वालियर : लिपस्टिक से सजी  किसिंग कार  पर पुलिस का एक्शन , 5500 रुपये का लगाया चालान – Pradesh Today",
+      "domain": "pradeshtoday.com",
+      "reason": "excluded topic \"लिपस्टिक\""
+    },
+    {
+      "title": "Chunilal Govanbhai Patel vs Narsibhai N Patel on 7 September , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Shyam Lal Dewasi vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Hadman Singh Rathore vs The State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Shobha vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Rudra Singh vs The State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Harsukh Ram vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Shyam Lal Dewasi vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "M / S . Sriram Enterprises vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Lakhman Singh vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Shiv Construction Company vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Prakash vs The State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Rajmal Bheel vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Omprakash Jat vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Babu Lal vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Gopallal vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Bablu Khatik vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Surendra Singh vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Bhajanlal vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Babu Lal vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Heeru Devi vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Bhanwarlal Gadri vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "M / S Choyal Construction Company vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Mohit Gora vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Madan vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Mukesh vs State Of Rajasthan on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "The General Manager , vs Arun , on 7 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Tikonia Haldwani Distt . Nainital vs Smt . Shagun Chhabra And Others on 20 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Deepika Mehta And Others vs Gaurav Bisht And Others on 21 August , 2026",
+      "domain": "indiankanoon.org",
+      "reason": "indiankanoon: no insurance / MACT / motor nexus in title"
+    },
+    {
+      "title": "Actor Pratik Gandhi leads  ChallanPay – Aaram Se  campaign by Lawyered",
+      "domain": "adgully.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Himachal Pradesh : Govt seeks Centre nod to raise contract carriage vehicle age limit to 15 years",
+      "domain": "aninews.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HBG Medical Assistance : Connecting the World to India Healthcare Excellence",
+      "domain": "aninews.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Lawyered Launches  ChallanPay - Aaram Se  Campaign Featuring Pratik Gandhi to Promote Smarter Road Behaviour",
+      "domain": "calcuttanews.net",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HBG Medical Assistance : Connecting the World to India Healthcare Excellence",
+      "domain": "calcuttanews.net",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "CS reviews nearly Rs 40 , 000 cr Highway & Tunnel projects across J & K",
+      "domain": "dailyexcelsior.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "First - Party Bike Insurance : Benefits , Coverage & How to Buy",
+      "domain": "dailypioneer.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Ayushman services Haryana private hospitals : हरियाणा में आयुष्मान सेवाओं पर संकट क्यों ? निजी अस्पतालों ने दी 24 घंटे सेवा रोकने की चेतावनी",
+      "domain": "dainiktribuneonline.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "सुविधाओं के शहरों में घटती इंसानी जगह - dainiktribuneonline . com",
+      "domain": "dainiktribuneonline.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "चंडीगढ़ में लगेंगे 2 हज़ार से अधिक नये एआई कैमरे - dainiktribuneonline . com",
+      "domain": "dainiktribuneonline.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Revanth Reddy Govt . Completes 1 , 000 Days , Marks Milestone in Governance , Development",
+      "domain": "deccanchronicle.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "முந்தைய அரசின் இடர்பாடுகளை நீக்கினால் தமிழகத்திற்கு ரூ . 2 லட்சம் கோடி திட்டங்கள் ; அமைச்சர் ஆதவ்",
+      "domain": "dinamalar.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "That third brake light above your rear window isnt styling ; NHTSA says the high - mounted lamp cuts rear - end crashes 4 . 3 percent and saves $655 million in property damage a year",
+      "domain": "economictimes.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "₹25 ride : India bike taxis are cheap , fast and still fighting for a place on the road",
+      "domain": "economictimes.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Bhiwandi Police Seize Car Carrying 500 Kg Suspected Beef ; Driver Held",
+      "domain": "freepressjournal.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Mumbai Ganeshotsav 2026 : Fitness Certificate Required For Larger Ganesh Idols ? BMC Issues Important Clarification",
+      "domain": "freepressjournal.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Mumbai Ganeshotsav 2026 : BMC Denies Making Fitness Certificate Mandatory For Ganesh Idols",
+      "domain": "freepressjournal.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Mumbai : 4 App - Based Cab Drivers Move Bombay HC Against Mandatory Marathi Language Rule",
+      "domain": "freepressjournal.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "ਭਾਜਪਾ ਨੇ ਫ਼ੰਡ ਰੋਕ ਕੇ ਅਤੇ ਕੇਂਦਰੀ ਏਜੰਸੀਆਂ ਵਰਤ ਕੇ ਪੰਜਾਬ ਨੂੰ ਕਮਜ਼ੋਰ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ , ਪਰ ਜਨਤਾ ਭਗਵੰਤ ਮਾਨ ਸਰਕਾਰ ਦੇ ਨਾਲ ਚੱਟਾਨ ਵਾਂਗ ਖੜ੍ਹੀ ਹੈ : ਬਲਤੇਜ ਪੰਨੂ",
+      "domain": "globalpunjabtv.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "ਪੰਜਾਬ ਦੇ 1 , 746 ਹੋਰ ਨੌਜਵਾਨਾਂ ਨੂੰ ਪੁਲਿਸ  ਚ ਮਿਲੀ ਸਰਕਾਰੀ ਨੌਕਰੀ , ਮੁੱਖ ਮੰਤਰੀ ਭਗਵੰਤ ਸਿੰਘ ਮਾਨ ਨੇ ਸੌਂਪੇ ਨਿਯੁਕਤੀ ਪੱਤਰ",
+      "domain": "globalpunjabtv.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Punjab makes Mukh Mantri Sehat Yojana health cards available online",
+      "domain": "hindustantimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HDFC Bank faces class - action lawsuit in US , shares decline",
+      "domain": "ianslive.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HDFC Bank faces class - action lawsuit in US , shares decline",
+      "domain": "ibtimes.co.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "दिल्ली के निर्माण श्रमिकों को बड़ा तोहफा : लागू होगी कैशलेस स्वास्थ्य योजना , 10 लाख तक का मिलेगा कवर - delhi launches cashless health scheme for construction workers",
+      "domain": "jagran.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "യുപിയില്‍ മുഖ്യം വനിതാ വോട്ടര്‍മാര്‍ ; അതിർത്തി നിർണയത്തിന് സർവകക്ഷി യോഗം",
+      "domain": "janayugomonline.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "CS reviews nearly ₹40 , 000 crore Highway & Tunnel projects across J & K",
+      "domain": "kashmirreader.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Haryana News : हरियाणा में 17 सितंबर से शुरू होगा  सेवा संकल्प अभियान , जनभागीदारी पर रहेगा जोर",
+      "domain": "khabarfast.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Hero MotoCorp and Swiggy Partner to Offer Affordable Bikes and Safety Training for Delivery Partners",
+      "domain": "khaskhabar.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Jaipur Range Police Operation Safer Road Initiative , Jaipur News in Hindi",
+      "domain": "khaskhabar.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "16 - year chambers waitlist drives Deepak Khosla to park chambers - bus outside of court",
+      "domain": "legallyindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Net Neutrality and Public Highways",
+      "domain": "legallyindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "संक्षिप्त खबरें",
+      "domain": "livehindustan.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "LiveLaw Kerala High Court Weekly Round - Up : August 31",
+      "domain": "livelaw.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Uber faces backlash over  Parcel Mini 3W  service , use of passenger autos for goods delivery in Bengaluru : Report",
+      "domain": "livemint.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Centre to launch GIS - based digital registry for rural road infrastructure",
+      "domain": "livemint.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "From Women Economic Independence to Cyber - Smart Youth , Uttarakhand Expands Welfare Push",
+      "domain": "livemint.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "  ഇരുകാലും ശരീരത്തിൽനിന്ന് പൂർണ്ണമായും വേർപെട്ടു , ഈ യുവാക്കളുടെ അകാലമരണം ഗൗരവമേറിയ മുന്നറിയിപ്പ് ; പാഠമുൾക്കൊള്ളണമെന്ന് പൊലീസ് സർജൻ | Kaipamangalam crash a serious warning : Dr Hitesh Sankar",
+      "domain": "madhyamam.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Why Men in Their 30s Are Starting to Plan Health Insurance for Their Parents ? ",
+      "domain": "mensxp.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "വൈറ്റിലയിൽ കുരുക്കഴിയും ; ഇനി സിഗ്നൽ ഇല്ലാത്ത ജംഗ്ഷൻ",
+      "domain": "metrovaartha.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Your hospital bill may be covered , but what about the months of recovery ? ",
+      "domain": "moneycontrol.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Rajasthan High Court Advocates Strike Against Acting Chief Justice Sanjeev Prakash Sharma",
+      "domain": "moneylife.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Social and economic status no barrier to justice in Nagaland : NSLSA member secy",
+      "domain": "morungexpress.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "देवसर बाजार में सड़क पर खड़ा पिकअप बना जाम की वजह",
+      "domain": "navabharat.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "  जन्माष्टमी पर प्रदेश में कहीं कोई दंगा या उपद्रव हुआ ? CM योगी ने बताया , कैसे बदल गई यूपी की पहचान",
+      "domain": "navbharattimes.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "कार खरीदने जितना ही क्यों जरूरी होती जा रही बाद की तैयारी ? ",
+      "domain": "navbharattimes.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Towards complete health assurance",
+      "domain": "navhindtimes.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Agartala Intensifies Traffic Preparations for Durga Puja",
+      "domain": "neindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Female friend viral stunt with 3 , 400 kisses on car lands Gwalior student in trouble",
+      "domain": "newindianexpress.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Himachal revises HIMCARE reimbursement rules for government hospitals",
+      "domain": "news.webindia123.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HBG Medical Assistance : Connecting the World to India Healthcare Excellence",
+      "domain": "news.webindia123.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "TN raises milk producer accident aid to Rs 5 lakh - News Today",
+      "domain": "newstodaynet.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HDFC Bank CEO Succession Crisis : Why Sashidhar Jagdishan Walked Away and What It Means for India Largest Private Lender",
+      "domain": "openthemagazine.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "How Shikhar Pan Masala Used Raksha Bandhan Emotion to Sell a Health - Warning Brand",
+      "domain": "openthemagazine.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Digital Arrest : How Maharashtra Turns Cybercrime Awareness Into Cinema With Celebrities and the 1930 Helpline",
+      "domain": "openthemagazine.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Odisha IOCL Truck Terminals Enhance Driver Safety - Pragativadi I Latest Odisha News in English I Breaking News",
+      "domain": "pragativadi.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "రక్తమోడుతున్న రోడ్లు",
+      "domain": "prajasakti.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "बलूचिस्तान लिबरेशन फ्रंट ने पाकिस्तानी सुरक्षाबलों पर कई हमलों की जिम्मेदारी ली",
+      "domain": "punjabkesari.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "राजस्थान में सुरक्षित वातावरण के लिए युवाओं की अहम भूमिकाः डीजीपी",
+      "domain": "tarunmitra.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "డ్రైవర్ నిద్రపోతే సీటు లేపుతుంది",
+      "domain": "telugu.gulte.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "  Murderer should not give my daughter a prize : Father confronts IAS officer Sriram",
+      "domain": "thenewsminute.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Meghalaya govt ropes in IIT - G for quality audit of MITP road work",
+      "domain": "theshillongtimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Mawryngkneng fishing event organisers in a fix",
+      "domain": "theshillongtimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Watch : Lamborghini , BMWs race through Mumbai Coastal Road tunnel ; FIR filed",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "World Spinal Cord Injury Day : From awareness to action , why prevention and rehabilitation matter",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Telangana high court battles 2 . 2 lakh pending cases amid judge shortfall",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "HC raps Cuttack Collector for crossing  Laxman Rekha  of propriety | Bhubaneswar News",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "School bus drivers , management urged to prioritise children safety | Mangaluru News",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "15 awareness vehicles flagged off to promote National Lok Adalat",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Case against 4 for flouting govt fuel curbs",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "New Gadag SP vows tough action against crime , seeks public support",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Government tightens norms for e - cycles , e - bikes",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Punjab : MMSY beneficiaries get post - discharge calls from 104 health helpline",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "UP accounts for nearly half of India scrapped vehicles | Lucknow News",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Father - son duo assault guard at Mumbai airport for stopping their tourist bus plying in wrong direction ; FIR filed",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Swiggy , Zomato , Amazon Delivery Riders May Come Under Maharashtra Bike - Taxi Rules - Trak . in - Indian Business of Tech , Mobile & Startups",
+      "domain": "trak.in",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Himcare scheme to be insurance based with up to Rs 10 lakh cashless treatment : Dharmani",
+      "domain": "tribuneindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Of 2 , 130 CCTVs , 187 defunct across Chandigarh surveillance grid",
+      "domain": "tribuneindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Timeless ties : Rakhi celebrations bring Delhi together",
+      "domain": "tribuneindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "  Waited for 3 hour : MGNREGA worker dies after alleged delay in cardiac treatment , raises questions over HIMCARE , Ayushman access",
+      "domain": "tribuneindia.com",
+      "reason": "no road / accident / traffic term in title"
+    },
+    {
+      "title": "Manuke Meets AAP Sakhis : ਵਿਧਾਇਕਾ ਮਾਣੂੰਕੇ ਵੱਲੋਂ ਸਖੀਆਂ ਦੀ ਲਾਮਬੰਦੀ",
+      "domain": "punjabitribuneonline.com",
+      "reason": "soft-negative \"aap\" and no strong road term"
+    },
+    {
+      "title": "Delhi govt launches campaign to boost public participation in curbing air pollution",
+      "domain": "hindustantimes.com",
+      "reason": "soft-negative \"air pollution\" and no strong road term"
+    },
+    {
+      "title": "BJP will strike deal with Akali Dal on condition of passing 3  Black  farm laws : Punjab CM Mann",
+      "domain": "aninews.in",
+      "reason": "soft-negative \"akali dal\" and no strong road term"
+    },
+    {
+      "title": "Congress and Akali Dal have hollowed out Punjab like termites : Bhagwant Singh Mann , Mohali News in Hindi",
+      "domain": "khaskhabar.com",
+      "reason": "soft-negative \"akali dal\" and no strong road term"
+    },
+    {
+      "title": "BJP will strike deal with Akali Dal on condition of passing 3  Black  farm laws : Punjab CM Mann",
+      "domain": "news.webindia123.com",
+      "reason": "soft-negative \"akali dal\" and no strong road term"
+    },
+    {
+      "title": "Police role vital to protecting coastline which is crucial to economy : Amit Shah",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "soft-negative \"coastline\" and no strong road term"
+    },
+    {
+      "title": "PM Modi to launch Rs 35 , 000 crore projects in Vadodara tomorrow",
+      "domain": "prokerala.com",
+      "reason": "soft-negative \"crore project\" and no strong road term"
+    },
+    {
+      "title": "Nepal Flood Alert : Bhote Koshi River Rises ; Rasuwa Nuwakot Dhading High Risk",
+      "domain": "divyamarathi.bhaskar.com",
+      "reason": "soft-negative \"flood\" and no strong road term"
+    },
+    {
+      "title": "Nepal Floods : Lessons for a Safer and More Resilient Himalaya",
+      "domain": "dailypioneer.com",
+      "reason": "soft-negative \"floods\" and no strong road term"
+    },
+    {
+      "title": "Nagaland GSDP grows 9 . 39 % in FY25 ; misses FRBM fiscal deficit target : CAG",
+      "domain": "morungexpress.com",
+      "reason": "soft-negative \"gsdp\" and no strong road term"
+    },
+    {
+      "title": "हिमाचल प्रदेश : कुल्लू में बिना बारिश दरका पहाड़ : 200 मीटर सड़क का मिट गया नामोनिशान - himachal landslide 200m road vanishes in kullus nirmand",
+      "domain": "jagran.com",
+      "reason": "soft-negative \"landslide\" and no strong road term"
+    },
+    {
+      "title": "  Deeply shocked to learn about tragic accident : PM Modi condoles Telangana bus deaths , prays for speedy recovery of injured",
+      "domain": "calcuttanews.net",
+      "reason": "soft-negative \"pm modi\" and no strong road term"
+    },
+    {
+      "title": "  Deeply shocked to learn about tragic accident : PM Modi condoles Telangana bus deaths , prays for speedy recovery of injured",
+      "domain": "news.webindia123.com",
+      "reason": "soft-negative \"pm modi\" and no strong road term"
+    },
+    {
+      "title": "Manjinder Singh Sirsa launches campaign to widen public role in pollution control",
+      "domain": "thehindu.com",
+      "reason": "soft-negative \"pollution control\" and no strong road term"
+    },
+    {
+      "title": "Odisha approves Rs 15 , 948 cr for power infrastructure",
+      "domain": "orissapost.com",
+      "reason": "soft-negative \"power infrastructure\" and no strong road term"
+    },
+    {
+      "title": "Gurpreet Sekhon Joins AAP as CM Mann Addresses Massive Zira Rally",
+      "domain": "rozanaspokesman.com",
+      "reason": "soft-negative \"rally\" and no strong road term"
+    },
+    {
+      "title": "UP Outsourcing Recruitment Corporation Logo Launch",
+      "domain": "bhaskar.com",
+      "reason": "soft-negative \"recruitment\" and no strong road term"
+    },
+    {
+      "title": "UP Board Hindi Syllabus 2026 - 27 : यूपी बोर्ड कक्षा 9 हिंदी सिलेबस जारी , जानें एग्जाम पैटर्न और पाएं फ्री PDF",
+      "domain": "jagranjosh.com",
+      "reason": "soft-negative \"syllabus\" and no strong road term"
+    },
+    {
+      "title": "Tamil Nadu CM Vijay News , सोने की अंगूठी बांट रहे CM विजय से ऑटो ड्राइवरों की डिमांड , सरकार बढ़ाए किराया , 13 साल पहले हुई थी बढ़ोतरी - tamil nadu auto drivers threaten stir demand fare hike from cm vijay led tvk govt announcement expected in assembl...",
+      "domain": "navbharattimes.indiatimes.com",
+      "reason": "soft-negative \"tvk\" and no strong road term"
+    },
+    {
+      "title": "Guntur set for Rs 53 crore urban makeover",
+      "domain": "timesofindia.indiatimes.com",
+      "reason": "soft-negative \"urban makeover\" and no strong road term"
+    },
+    {
+      "title": "Mukul Sangma Criticises Assam , Meghalaya Governments Over Jorabat Waterlogging , Cites Choked Culverts",
+      "domain": "sentinelassam.com",
+      "reason": "soft-negative \"waterlogging\" and no strong road term"
+    },
+    {
+      "title": "सड़क पर हवन और मंत्रोच्चार , खरगोन में जर्जर सड़कों से परेशान युवा कांग्रेस ने अनोखे अंदाज में नगर पालिका को दी सद्बुद्धि",
+      "domain": "navbharattimes.indiatimes.com",
+      "reason": "soft-negative \"कांग्रेस\" and no strong road term"
+    },
+    {
+      "title": "पीएम मोदी आज गुजरात - महाराष्ट्र दौरे पर",
+      "domain": "tarunmitra.in",
+      "reason": "soft-negative \"पीएम मोदी\" and no strong road term"
+    },
+    {
+      "title": "प्रधानमंत्री का मंगलवार को गुजरात और महाराष्ट्र दौरा , 35 हजार करोड़ से अधिक की सौगात देंगे",
+      "domain": "loktej.com",
+      "reason": "soft-negative \"प्रधानमंत्री\" and no strong road term"
+    },
+    {
+      "title": "पंजाब की मुख्यमंत्री सेहत योजना हुई डिजिटल , अब घर बैठे डाउनलोड करें 10 लाख रुपये का हेल्थ कार्ड , जानें कैसे",
+      "domain": "navbharattimes.indiatimes.com",
+      "reason": "soft-negative \"मुख्यमंत्री\" and no strong road term"
+    }
+  ]
+}

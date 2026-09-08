@@ -54,7 +54,13 @@ export default function NumbersPage() {
           </li>
           <li>
             <strong>National Legal Services Authority (NALSA)</strong> —{' '}
-            <a href="tel:15100">15100</a>
+            <a
+              href="tel:15100"
+              aria-label="Call NALSA at 15100"
+              className="inline-flex items-center min-h-[44px] px-1 -my-2 font-semibold no-underline"
+            >
+              15100
+            </a>
           </li>
           <li>
             <strong>Motor Vehicles Accident Claims Portal</strong>{' '}
